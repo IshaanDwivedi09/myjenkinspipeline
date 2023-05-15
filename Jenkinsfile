@@ -19,6 +19,11 @@ stages {
 			echo "testing my code"
 		}
 	}
+	stage('Deployed') {
+		steps {
+			echo "Finalising my code"
+		}
+	}
 
 }
 
